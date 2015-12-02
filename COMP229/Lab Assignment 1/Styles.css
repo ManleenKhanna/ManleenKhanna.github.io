@@ -1,0 +1,37 @@
+﻿body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-y;
+	background-position: center top;
+	right: auto;
+	left: auto;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	font-family: Gabriola;
+	color: #000000;
+	font-style: italic;
+}
+p {
+	color: #FF0000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: large;
+}
+img {
+	float: right;
+	margin: 7px;
+}
+ul {
+	color: #FF0000;
+	font-size: large;
+}
+h2 {
+	font-family: gabriola;
+	font-style: italic;
+}
+a {
+	font-size: large;
+	color: #FF0000;
+	text-decoration: none;
+}

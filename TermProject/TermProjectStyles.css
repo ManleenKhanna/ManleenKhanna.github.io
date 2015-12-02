@@ -1,0 +1,43 @@
+﻿body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.button.round {
+	border-radius: 100px;
+	display: inline-block;
+	border: 5px solid #007095;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0px;
+	text-align: center;
+	background-color: #008CBA;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: #000066;
+}
+#footerNav {
+	text-align: center;
+	vertical-align: middle;
+}
+#footer {
+	text-align: center;
+	vertical-align: middle;
+}
+table {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #000099;
+	vertical-align: middle;
+	text-align: center;
+	white-space: normal;
+	word-spacing: normal;
+	box-shadow: 0px 0px 0px;
+}

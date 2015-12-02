@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Manleen Khanna Test1</title>
+    <!--Manleen K. Khanna 300814613-->
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+	<script src="JavaScript.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img src="images/vacation.jpg" alt="" />
+        </div>
+        <div id="topnavigation">
+            <ul>
+                <li><a href="vacationhome.html">Home Page</a></li>
+                <li><a href="vacationform.html">Order Form</a></li>
+            </ul>
+        </div>
+        <div id="leftside">
+            <img src="images/beach.jpg" />
+        </div>
+        <div id="content">
+            <h2>Pick the desired options:</h2>
+
+            <fieldset>
+                <input type="checkbox" id="flight" checked readonly />Flight (199.99CAD)  <br />
+                <input type="checkbox" id="hotel" checked readonly />Accomodation (399.99CAD) <br />
+                <input type="checkbox" id="snorkeling" />Snorkeling (79.99CAD) <br />
+                <input type="checkbox" id="helicopter" />Helicopter ride (99.99CAD) <br />
+                <input type="checkbox" id="massage" />Massage (59.99CAD) <br />
+                Number of guests :<input type="text" id="quantity" /><br />
+                <br />
+                Package:<br />
+                <label><input type="radio" id="ten" name="tip" />VIP (10% of the price)</label><br />
+                <label><input type="radio" id="five" name="tip" />Regular (no additional charge)</label><br />
+                <br />
+
+                <button id="submit" onclick="calculate();">Calculate order</button>
+                <br />
+            </fieldset>
+
+            <p>
+                Cost of your trip: <span id="price"></span>
+            </p>
+
+        </div>
+        <div id="footer">
+            <marquee behavior="alternate">
+                 &copy;&nbsp;2015 Manleen K. Khanna
+            </marquee>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿body{
+    color:white;
+    background-image:url(Page_Background.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    width:800px
+}
+
+#header{
+    width:800px;
+    text-align:right;
+    background-image:url('bannerfans_15855885.jpg');
+    background-repeat:no-repeat;
+}
+
+#header #bugsCaught{
+    margin-right:30px;
+    font-size:1.5em;    
+}
+
+#gamearea{
+    position:fixed;
+    top:100px;
+}
+
+input{
+    margin-right:30px;
+    margin-top:30px;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+    background-color:#ffec64;
+    border-radius:10px;
+    border:2px solid #ffaa22;
+    display:inline-block;
+    color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+}
+
+input:hover{
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+input:disabled{
+    background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbe6c4', endColorstr='#9ba892',GradientType=0);
+    background-color:#dbe6c4;
+    border-color:#b2b8ad;
+}
+
+#footer{
+	font-size: medium;
+	margin-top: 520px;
+	font-family: forte;
+}

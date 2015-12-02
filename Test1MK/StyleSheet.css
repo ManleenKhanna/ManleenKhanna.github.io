@@ -1,0 +1,54 @@
+﻿body {
+    background-image:url('images/PageBackground.jpg');
+}
+
+#wrapper {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#topnavigation {
+    text-align:right;
+    padding-right:50px;
+}
+
+#topnavigation ul {
+    list-style-type:none;
+}
+
+#topnavigation ul li {
+    display:inline;
+    padding-right:15px;
+}
+
+#topnavigation ul li a {
+    text-decoration:none;
+    color:black;
+}
+
+#topnavigation ul li a:hover {
+    background-color:aqua;
+}
+
+#leftside {
+    float:left;
+    width:300px;
+}
+
+#content {
+    margin-left:320px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#content p {
+    text-align: justify;
+}
+
+#footer {
+    color:darkblue;
+    margin-top:270px;
+}

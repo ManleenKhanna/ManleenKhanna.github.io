@@ -1,0 +1,42 @@
+﻿.Name {
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-style: oblique;
+	text-transform: none;
+	color: #CC33FF;
+	border-style: none;
+	border-color: #FFFFFF;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	color: teal;
+}
+.top {
+	vertical-align: top;
+}
+.right {
+	vertical-align: middle;
+	text-align: right;
+}
+.fontSize {
+	font-size: large;
+}
+fieldset {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px 5px #C0C0C0;
+	width: 750px;
+}
+legend {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	color: #008080;
+	text-align: left;
+}

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Assignment 3</title>
+    <script type="text/javascript" src="validation.js"></script>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+.auto-style1 {
+	text-align: right;
+}
+</style>
+</head>
+<body>
+    <div id="header">
+        <marquee behavior="alternate" onmouseover="this.stop();" onmouseout="this.start();"><img alt="" src="Header.png" ></marquee></div>
+    <h1>Member Registration</h1>
+    <p>Please complete all the fields below:</p>
+    <form name="myForm" id="theForm" onsubmit="return validate()">
+    	<fieldset>
+        <table style="width: 100%">
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>First Name:</label></td>
+				<td><input type="text" name="firstName" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Last Name:</label></td>
+				<td><input type="text" name="lastName" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Address:</label></td>
+				<td><input type="text" name="address" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>City:</label></td>
+				<td><input type="text" name="city" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Postal Code:</label></td>
+				<td><input type="text" name="postalCode" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Province:</label></td>
+				<td><input type="text" name="province" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Age:</label></td>
+				<td><input type="text" name="age" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Password:</label></td>
+				<td><input type="password" name="password" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>Confirm 
+				Password:</label></td>
+				<td><input type="password" name="confirm" width="30" /></td>
+			</tr>
+			<tr>
+				<td class="auto-style1" style="width: 468px"><label>E-mail:</label></td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+		</table>
+		</fieldset>
+        <div id="button">
+        <input type="submit" value="Register Now" />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear Form" />
+        </div>
+    </form>
+    <marquee style="color:white">
+    &copy;&nbsp;Copyright Student Name: Manleen K. Khanna | Student Number: 300814613 - COMP229 - Advanced Web Application Development - Summer 2015</marquee>
+</body>
+</html>
