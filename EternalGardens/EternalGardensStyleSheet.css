@@ -1,0 +1,50 @@
+﻿#headerRight {
+	text-align: right;
+	font-size: x-large;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#headerLeft {
+	text-align: left;
+}
+
+#footerRight {
+	text-align: right;
+}
+
+#footerLeft {
+	font-family: cursive;
+	text-align: left;
+}
+
+#body {
+	background-color: #F8F8F8;
+}
+
+body {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 768px;
+	background-image:url('images/WallpaperTexture.jpg');
+}
+
+h1 {
+	font-family: Forte;
+	color: #14AB60;
+	text-align: center;
+}
+a {
+	font-family: cursive;
+	color: #17A05D;
+	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#mainContent{
+	font-family: "Comic Sans MS";
+}
