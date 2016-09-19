@@ -1,5 +1,131 @@
-﻿body {
-width:1150px;
-margin-left:auto;
-margin-right:auto
+﻿* {margin: 0; padding: 0;}
+
+body {
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#container {
+	height:auto;
+	width: auto;
+	overflow: hidden;
+	margin: 50px auto;
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+   margin-left: -600px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -600px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -600px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -600px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -600px;
+ }
+
+}
+
+.photobanner {
+	width: auto;
+	height: auto;
+	margin-bottom: 80px;
+}
+
+.photobanner img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+h1 {
+	font-family: arial, Helvetica, sans-serif;
+	color: #FF0000;
+	text-decoration: none;
+	font-size: xx-large;
+	font-style: oblique;
+	text-transform: capitalize;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	text-decoration: none;
+	font-style: oblique;
+	color: #0000FF;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+h2#right
+{
+	text-align:right;
+}
+
+h2#left
+{
+	text-align:center
 }
