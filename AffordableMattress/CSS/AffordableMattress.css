@@ -194,3 +194,8 @@ h2#left
 {
 	display:block;
 }
+
+p
+{
+	text-align:center;
+}
