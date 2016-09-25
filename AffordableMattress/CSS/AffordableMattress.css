@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-	height:auto;
+	height:301px;
 	width: auto;
 	overflow: hidden;
 	margin: 50px auto;
@@ -78,7 +78,7 @@ body {
 
 .photobanner {
 	width: auto;
-	height: auto;
+	height: 301px;
 	margin-bottom: 80px;
 }
 
@@ -145,6 +145,7 @@ h2#left
 #footer
 {
 	text-align:center;
+	font-size:medium;
 }
 
 #menu ul
@@ -198,4 +199,8 @@ h2#left
 p
 {
 	text-align:center;
+}
+hr {
+	color: #0F75BC;
+	size: 4;
 }
