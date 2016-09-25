@@ -68,20 +68,20 @@ function FP_getObjectByID(id,o) {//v1.0
 			
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li>Living Room&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Living Room&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Living Room/Sectional.html">Sectional</a></li>
 							<li><a href="Pages/Living Room/Sofa and Loveseat.html">Sofa and Loveseat</a></li>
 							<li><a href="Pages/Living Room/Coffee Table.html">Coffee Table</a></li>
 						</ul>
 					</li>
-					<li>Bedroom&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Bedroom&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Bedroom/Youth Beds.html">Youth Beds</a></li>
 							<li><a href="Pages/Bedroom/Bedroom Package.html">Bedroom Package</a></li>
 						</ul>
 					</li>
-					<li>Mattress and Bedding&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Mattress and Bedding&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Mattress and Bedding/King Koil.html">King Koil</a></li>
 							<li><a href="Pages/Mattress and Bedding/Serta.html">Serta</a></li>
@@ -90,7 +90,7 @@ function FP_getObjectByID(id,o) {//v1.0
 						</ul>
 					</li>
 					<li><a href="Pages/Dinettes/Dinettes.html">Dinettes</a></li>
-					<li>Accessories&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Accessories&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Accessories/Accent Furniture.html">Accent Furniture</a></li>
 							<li><a href="Pages/Accessories/Desk.html">Desk</a></li>

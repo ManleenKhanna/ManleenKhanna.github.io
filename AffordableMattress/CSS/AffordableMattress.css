@@ -200,7 +200,13 @@ p
 {
 	text-align:center;
 }
+
 hr {
 	color: #0F75BC;
 	size: 4;
+}
+img {
+	border-style: solid;
+	border-width: thin;
+	border-radius: 15px;
 }
