@@ -7,6 +7,16 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <!-- #BeginEditable "doctitle" -->
 <title>Affordable Mattress</title>
+<style type="text/css">
+.auto-style1 {
+	border-width:medium;
+	-webkit-animation: bannermove 30s linear infinite;
+	-moz-animation: bannermove 30s linear infinite;
+	-ms-animation: bannermove 30s linear infinite;
+	-o-animation: bannermove 30s linear infinite;
+	animation: bannermove 30s linear infinite;
+}
+</style>
 <!-- #EndEditable -->
 <script type="text/javascript">
 <!--
@@ -33,16 +43,6 @@ function FP_getObjectByID(id,o) {//v1.0
 // -->
 </script>
 <link href="CSS/AffordableMattress.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-.auto-style1 {
-	border-width: 0px;
-	-webkit-animation: bannermove 30s linear infinite;
-	-moz-animation: bannermove 30s linear infinite;
-	-ms-animation: bannermove 30s linear infinite;
-	-o-animation: bannermove 30s linear infinite;
-	animation: bannermove 30s linear infinite;
-}
-</style>
 </head>
 
 	<body onload="FP_preloadImgs(/*url*/'Buttons/button67.gif',/*url*/'Buttons/button68.gif',/*url*/'Buttons/button19.gif',/*url*/'Buttons/button1A.gif',/*url*/'Buttons/button1F.gif',/*url*/'Buttons/button20.gif',/*url*/'Buttons/button22.gif',/*url*/'Buttons/button23.gif',/*url*/'Buttons/button25.gif',/*url*/'Buttons/button26.gif')">
@@ -54,7 +54,7 @@ function FP_getObjectByID(id,o) {//v1.0
 					<!--Logo-->
 					<td>
 						<a href="index.html"> 
-							<img alt="logo" height="200" src="Pictures/logo.png" width="271"/></a>
+							<img id="logo" alt="logo" height="200" src="Pictures/logo.png" width="271"/></a>
 					</td>
 					<!--Contact Info-->
 					<td style="text-align:right;"><h2>1017 8<sup>th</sup> ave, Regina, SK, S4R 1E1<br />
@@ -70,20 +70,20 @@ function FP_getObjectByID(id,o) {//v1.0
 			
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li>Living Room&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Living Room&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Living Room/Sectional.html">Sectional</a></li>
 							<li><a href="Pages/Living Room/Sofa and Loveseat.html">Sofa and Loveseat</a></li>
 							<li><a href="Pages/Living Room/Coffee Table.html">Coffee Table</a></li>
 						</ul>
 					</li>
-					<li>Bedroom&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Bedroom&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Bedroom/Youth Beds.html">Youth Beds</a></li>
 							<li><a href="Pages/Bedroom/Bedroom Package.html">Bedroom Package</a></li>
 						</ul>
 					</li>
-					<li>Mattress and Bedding&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Mattress and Bedding&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Mattress and Bedding/King Koil.html">King Koil</a></li>
 							<li><a href="Pages/Mattress and Bedding/Serta.html">Serta</a></li>
@@ -92,7 +92,7 @@ function FP_getObjectByID(id,o) {//v1.0
 						</ul>
 					</li>
 					<li><a href="Pages/Dinettes/Dinettes.html">Dinettes</a></li>
-					<li>Accessories&nbsp;<img src="Pictures/arrow-down.png"/>
+					<li>Accessories&nbsp;<img id="dropDown" src="Pictures/arrow-down.png"/>
 						<ul>
 							<li><a href="Pages/Accessories/Accent Furniture.html">Accent Furniture</a></li>
 							<li><a href="Pages/Accessories/Desk.html">Desk</a></li>
@@ -120,33 +120,37 @@ function FP_getObjectByID(id,o) {//v1.0
 					<td style="width:25%">
 					<h2 id="left">Free Delivery</h2>
 					</td>
+					
 					<td style="width:50%">
 					<h1>Furniture Upto 30% off</h1>
 					</td>
+					
 					<td style="width:25%">
 					<h2 id="right">Price Match Guarantee</h2>
 					</td>
 				</tr>
+				
 				<tr>
 					<td style="width:25%">
-					<h2 id="left">Free Layaway</h2>
+					<h2 id="left0">Free Layaway</h2>
 					</td>
+					
 					<td style="width:50%">
 					<h1>Mattress Upto 50% off</h1>
 					</td>
+					
 					<td style="width:25%">
-					<h2 id="right">Free Set Up</h2>
+					<h2 id="right0">Free Set Up</h2>
 					</td>
 				</tr>
+
 				<tr>
-				
 					<td style="width:25%">
-					&nbsp;</td>
+					</td>
 				
 					<td>
 						<h1>Quality for less</h1>
 					</td>
-					
 				</tr>
 			</table>
 			
@@ -171,9 +175,13 @@ function FP_getObjectByID(id,o) {//v1.0
 		<br/>
 		
 		<div id="footer">
-		
-				&copy; 2016 Affordable Mattress And Furniture
 			
+			<hr size="4" color="#0F75BC" />
+				<br />
+				&copy; 2016 Affordable Mattress And Furniture<br />
+				<br />
+			<hr size="4" color="#0F75BC" />
+			<br/>
 		</div>
 
 	</body>

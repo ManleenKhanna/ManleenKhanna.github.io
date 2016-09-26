@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-	height:301px;
+	height:311px;
 	width: auto;
 	overflow: hidden;
 	margin: 50px auto;
@@ -78,7 +78,7 @@ body {
 
 .photobanner {
 	width: auto;
-	height: 301px;
+	height: 311px;
 	margin-bottom: 80px;
 }
 
@@ -145,7 +145,7 @@ h2#left
 #footer
 {
 	text-align:center;
-	font-size:medium;
+	font-size:large
 }
 
 #menu ul
@@ -201,12 +201,20 @@ p
 	text-align:center;
 }
 
-hr {
-	color: #0F75BC;
-	size: 4;
-}
 img {
 	border-style: solid;
-	border-width: thin;
+	border-width:medium;
 	border-radius: 15px;
+}
+
+img#dropDown
+{
+	border-width: 0px;
+	border-radius: 0px;
+}
+
+img#logo
+{
+	border-width: 0px;
+	border-radius: 0px;
 }
