@@ -77,6 +77,7 @@ function FP_getObjectByID(id,o) {//v1.0
 							<li><a href="Pages/Mattress and Bedding/Serta.html">Serta</a></li>
 							<li><a href="Pages/Mattress and Bedding/Bedding.html">Bedding</a></li>
 							<li><a href="Pages/Mattress and Bedding/Metal Frames.html">Metal Frames</a></li>
+							<li><a href="Pages/Mattress and Bedding/Restwell.html">Restwell</a></li>
 						</ul>
 					</li>
 					<li><a href="Pages/Dinettes/Dinettes.html">Dinettes</a></li>
@@ -109,7 +110,7 @@ function FP_getObjectByID(id,o) {//v1.0
 			
 			<hr size="4" color="#0F75BC" />
 				<br />
-				&copy; 2016 Affordable Mattress And Furniture<br />
+				© 2016 Affordable Mattress And Furniture<br />
 				<br />
 			<hr size="4" color="#0F75BC" />
 			<br/>

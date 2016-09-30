@@ -11,7 +11,6 @@ body {
 }
 
 #container {
-	height:311px;
 	width: auto;
 	overflow: hidden;
 	margin: 50px auto;
@@ -78,7 +77,6 @@ body {
 
 .photobanner {
 	width: auto;
-	height: 311px;
 	margin-bottom: 80px;
 }
 
@@ -207,6 +205,12 @@ img {
 	border-radius: 15px;
 }
 
+img:hover
+{
+	cursor:pointer;
+	transform:scale(1.1);
+}
+
 img#dropDown
 {
 	border-width: 0px;
@@ -217,4 +221,12 @@ img#logo
 {
 	border-width: 0px;
 	border-radius: 0px;
+}
+
+h3 {
+	font-family: Forte;
+	font-size:xx-large;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #FF0000;
 }
